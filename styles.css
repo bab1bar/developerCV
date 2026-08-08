@@ -6,6 +6,45 @@ body {
     background: #e6e6e6;
 }
 
+#dp {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.page-alert {
+  position: fixed;
+  inset: 0;
+  background: rgba(58, 53, 53, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+
+.alert-box {
+  background: rgb(45, 45, 58);
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+}
+
+.alert-box button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: navy;
+  color: white;
+}
+
+
+
 .cv-container {
     width: 900px;
     background: white;
@@ -23,7 +62,7 @@ body {
 }
 
 .left-column h3 {
-    border-bottom: 2px solid #ffffff55;
+    border-bottom: 2px solid #2f307e55;
     padding-bottom: 3px;
     margin-top: 25px;
 }
@@ -32,7 +71,7 @@ body {
 .photo-box img {
     width:99%;
     border-radius: 4px;
-    border: 2px solid rgb(7, 16, 131);
+    border: 2px solid rgb(10, 26, 243);
     margin-bottom: 10px;
 }
 
@@ -55,7 +94,12 @@ body {
     content: \"• \";
     color: #ffdd55;
 }
-
+.social-box a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 5px;
+}
 /* ===== RIGHT COLUMN ===== */
 .right-column {
     width: 730px;
@@ -67,6 +111,109 @@ body {
     margin: 0;
     font-weight: bold;
 }
+
+
+
+/* .tooltip {
+    position: relative;
+    cursor: pointer;
+}
+
+.tooltip-text {
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: black;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+.tooltip:hover .tooltip-text {
+    opacity: 1;
+    visibility: visible;
+} */
+
+
+
+
+.tooltip {
+    position: relative;
+    cursor: pointer;
+}
+
+.tooltiptext {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+font-size: 10px;
+    width: max-content;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    z-index: 999;
+}
+
+.tooltip:hover .tooltiptext {
+    opacity: 1;
+    visibility: visible;
+}
+#star {
+    font-size: 31px;
+    color: blue;
+}
+
+
+
+.icon-tooltip {
+    position: relative;
+    font-size: 30px;
+    color: rgb(208, 208, 221);
+}
+
+.icon-tooltip span {
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: rgb(243, 172, 172);
+    color: rgb(78, 70, 70);
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    font-size: 14px;
+    white-space: nowrap;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+/* 
+.icon-tooltip:hover span {
+    opacity: 1;
+    visibility: visible;
+} */
+
+
+
+
+
+
 
 .contact {
     margin-top: 1px;
