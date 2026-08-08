@@ -162,17 +162,10 @@ You can also use the **Live Server** extension in Visual Studio Code for easier 
 ## 💻 Skills Demonstrated
 
 This project demonstrates practical knowledge of:
-
-* HTML semantic structure
+mantic structure
 * CSS styling
 * Responsive web design
-* CSS Flexbox
-* CSS Grid
-* Media queries
 * JavaScript basics
-* DOM manipulation
-* Event handling
-* Interactive UI elements
 * Links and navigation
 * Form/contact elements
 * Git and GitHub
@@ -202,20 +195,6 @@ My goal is to continue improving my programming skills by building real-world pr
 
 I plan to continue improving this project as my development skills grow.
 
-Possible future improvements include:
-
-* Improved animations
-* More advanced JavaScript functionality
-* Better accessibility
-* Improved responsive design
-* Dark/light theme
-* Downloadable PDF CV
-* More projects
-* Portfolio section
-* Improved performance
-* PWA functionality
-* Better SEO
-* More advanced frontend technologies
 
 ---
 
@@ -227,56 +206,18 @@ Some of my other practice projects include:
 
 A practice web application focused on kitchen-related products and functionality.
 
-🔗 **Live Demo:** [PASTE LINK]
+🔗 **Live Demo:** see the projects on my github profile.)
 
 ### 🚗 Rent a Car
 
 A practice rental car website demonstrating frontend design and responsive layouts.
 
-🔗 **Live Demo:** [PASTE LINK]
+🔗 **Live Demo:** (see the projects on my github profile.)
 
 ### 📦 Fatafat Delivery
 
 A practice delivery/shopping website designed for local delivery services.
 
-🔗 **Live Demo:** [PASTE LINK]
-
-> These projects are practice projects created to improve my web development skills.
-
----
-
-## 📸 Screenshots
-
-You can add screenshots of your CV here.
-
-Example:
-
-```markdown
-![Developer CV Screenshot](images/cv-screenshot.png)
-```
-
-If you have multiple screenshots:
-
-```markdown
-## Desktop
-
-![Desktop Screenshot](images/desktop.png)
-
-## Mobile
-
-![Mobile Screenshot](images/mobile.png)
-```
-
----
-
-## 🌐 Browser Compatibility
-
-The website is intended to work with modern browsers, including:
-
-* Google Chrome
-* Microsoft Edge
-* Mozilla Firefox
-* Safari
 
 ---
 
@@ -284,7 +225,7 @@ The website is intended to work with modern browsers, including:
 
 🟢 **Status: Completed / Continuously Improving**
 
-This project is currently usable as my online developer CV, but I may continue improving it as I learn new technologies and gain more development experience.
+This project is currently usable as my online programming CV, but I may continue improving it as I learn new technologies and gain more development experience.
 
 ---
 
@@ -297,19 +238,6 @@ I am currently strengthening my skills in:
 **HTML → CSS → JavaScript → Git/GitHub**
 
 I believe in learning through practice, building projects, debugging problems, and continuously improving my development skills.
-
----
-
-## 📫 Contact
-
-**Email:** [YOUR EMAIL]
-
-**GitHub:** [YOUR GITHUB PROFILE]
-
-**LinkedIn:** [YOUR LINKEDIN PROFILE]
-
-**Portfolio/CV:** [YOUR LIVE CV LINK]
-
 ---
 
 ## 🤝 Contributions
@@ -324,7 +252,7 @@ However, suggestions and constructive feedback are welcome.
 
 This project is primarily created for personal and professional portfolio purposes.
 
-You may view the source code for learning purposes, but personal information, content, images, and other original material should not be reused without permission.
+You may view the source code for learning purposes, but personal information, content, images, and other original material should not be reused without permission. It's confidential.
 
 ---
 
