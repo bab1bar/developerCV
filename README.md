@@ -1,4 +1,4 @@
-# 👨‍💻 Developer CV / Resume
+ # 👨‍💻 Developer CV / Resume
 
 A professional, responsive **Developer CV / Resume website** created to showcase my skills, projects, experience, and contact information.
 
