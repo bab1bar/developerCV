@@ -1,0 +1,133 @@
+/* ===== GENERAL ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+.cv-container {
+    width: 900px;
+    background: white;
+    margin: 20px auto;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+/* ===== LEFT COLUMN ===== */
+.left-column {
+    width: 270px;
+    background: #1d3a74;
+    color: white;
+    padding: 20px;
+}
+
+.left-column h3 {
+    border-bottom: 2px solid #ffffff55;
+    padding-bottom: 3px;
+    margin-top: 25px;
+}
+
+/* Profile Photo */
+.photo-box img {
+    width:99%;
+    border-radius: 4px;
+    border: 2px solid rgb(7, 16, 131);
+    margin-bottom: 10px;
+}
+
+/* ABOUT / SKILLS / PERSONAL INFO */
+.about-box p,
+.skills-box ul li,
+.personal-info ul li {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.skills-box ul,
+.personal-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-box ul li::before,
+.personal-info ul li::before {
+    content: \"• \";
+    color: #ffdd55;
+}
+
+/* ===== RIGHT COLUMN ===== */
+.right-column {
+    width: 730px;
+    padding: 15px 20px;
+}
+
+.name {
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.contact {
+    margin-top: 1px;
+    font-size: 14px;
+    line-height: 0.5;
+}
+
+.section {
+    margin-top: 2px;
+}
+
+.section h2 {
+    font-size: 18px;
+    border-bottom: 2px solid #1d3a74;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+}
+
+.section h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.section h3 span {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+}
+
+.section ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.section ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* ===== LANGUAGES BAR ===== */
+.section p {
+    font-size: 14px;
+}
+
+/* Bars (fake progress style) */
+.section p strong {
+    width: 90px;
+    display: inline-block;
+}
+
+.section p::after {
+    content: '';
+}
+
+/* ===== MOBILE RESPONSIVE (optional) ===== */
+@media (max-width: 900px) {
+    .cv-container {
+        width: 100%;
+        flex-direction: column;
+    }
+    .left-column, .right-column {
+        width: 100%;
+    }
+}
